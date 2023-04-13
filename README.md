@@ -18,9 +18,17 @@ Here are the results from oversampling the data and using logistic regression to
 
 <img width="502" alt="image" src="https://user-images.githubusercontent.com/79022140/231610863-3ac2de67-8678-43cf-b3de-d1e31d114ee9.png">
 
+* 66% of the predictions were correct
+* On average, precision was very high (99%) but this is misleading because the precision for high-risk and low-risk loans varied greatly (1% and 100% respectivly).
+* Average recall was 60%. 72% for high-risk and 60% for low-risk  
+
 ### SMOTE Oversampling
 
 <img width="483" alt="image" src="https://user-images.githubusercontent.com/79022140/231611734-5fd646d9-7543-4396-a3a9-de3104e76a5a.png">
+
+* 66% of the predictions were correct
+* Once again, average precision was very high at 99% but varied greatly between the high-risk and low-risk
+* Average recall was 69%. 62% for high-risk and 69% for low-risk
 
 ## Undersampling
 
@@ -30,6 +38,10 @@ Here are the results from undersampling (also using logistic regression for pred
 
 <img width="483" alt="image" src="https://user-images.githubusercontent.com/79022140/231613164-d3e760ab-f163-4b07-8fb4-73d484391979.png">
 
+* Accuracy score was slightly lower at 54%
+* Average precision was 99%. 1% for high-risk and 99% for low-risk
+* Average recall was 40%. 69% for high-risk and 40% for low-risk
+
 
 ## Combination Sampling
 
@@ -38,6 +50,10 @@ Here are the results from combination sampling (oversampling and undersampling) 
 ### SMOTEENN
 
 <img width="483" alt="image" src="https://user-images.githubusercontent.com/79022140/231613884-8d90fef4-f10a-4707-8eca-0fe4ab4125f9.png">
+
+* Accuracy score was 63%
+* Average precision was 99%. 1% for high-risk and 99% for low-risk
+* Average recall was 60%. 65% for high-risk and 60% for low-risk
 
 
 # Summary
