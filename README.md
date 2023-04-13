@@ -72,3 +72,6 @@ Here are the results from combination sampling (oversampling and undersampling) 
 * Average recall was 94%. 92% for high-risk and 94% for low-risk
 
 # Summary
+
+Overall, all of the models made accurate predictions. Easy ensemble AdaBoost Classifier model was the most accurate with 93% of its predictions being right. Cluster Centrods model had the lowest accuracy score at 54%. All of the models had a very low precision for high-risk loans, which means that most of the loans that were predicted to be high-risk were not actually high-risk. This is not necessarly a bad thing though because falsely classifying a high-risk loan as low-risk can be a costly mistake.
+Easy Ensemble AdaBoost Classifier is the best model because it had the highest accuracy score and it did not mispredict too many of the loans that were actually high-risk
