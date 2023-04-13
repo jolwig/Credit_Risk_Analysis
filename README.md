@@ -55,5 +55,20 @@ Here are the results from combination sampling (oversampling and undersampling) 
 * Average precision was 99%. 1% for high-risk and 99% for low-risk
 * Average recall was 60%. 65% for high-risk and 60% for low-risk
 
+## Balanced Random Forest Classifier 
+
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/79022140/231617840-486add4a-aa33-4ffa-bd20-2616eac54bb8.png">
+
+* Accuracy score was high at 79%
+* Average precision was 99%. 3% for high-risk and 99% for low-risk
+* Average recall was 87%. 70% for high-risk and 87% for low-risk
+
+## Easy Ensemble AdaBoost Classifier
+
+<img width="482" alt="image" src="https://user-images.githubusercontent.com/79022140/231618517-d115ac09-d243-48d9-96cd-6808d7306977.png">
+
+* Accuracy was very high at 93%
+* Average precision was 99%. 9% for high-risk and 99% for low-risk
+* Average recall was 94%. 92% for high-risk and 94% for low-risk
 
 # Summary
